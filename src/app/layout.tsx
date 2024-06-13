@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Link from "next/link";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -35,7 +36,7 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        {children}
+        <main>{children}</main>
         <footer className="bg-white shadow mt-8">
           <div className="container mx-auto px-4 py-6">
             <p className="text-gray-700">&copy; 2023 Grocery Best Deals Finder. All rights reserved.</p>
